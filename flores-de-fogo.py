@@ -5,7 +5,7 @@ while True:
         cond_relacao_circulo = ""
         
         if r2 > r1:
-            print('Morto')
+            print('MORTO')
         else:        
             if(dist_orig1_orig2 > r1 + r2):
                 cond_relacao_circulo = "externas"
@@ -19,9 +19,9 @@ while True:
                 cond_relacao_circulo = "internas"
 
             if ((cond_relacao_circulo == "tang_interna") or (cond_relacao_circulo == "internas")):
-                print('Rico')
+                print('RICO')
             else:
-                print('Morto')
+                print('MORTO')
 
     except EOFError:
         break
