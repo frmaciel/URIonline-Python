@@ -1,2 +1,2 @@
-# Aprendendo Python
+# Desafios da URI Online desenvolvidos em Python
  
